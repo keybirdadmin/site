@@ -1,8 +1,8 @@
 <script>
-  
+  document.addEventListener("DOMContentLoaded", function(event) { 
   var iframe = document.createElement('iframe');
 iframe.onload = function() { alert('myframe is loaded'); }; // before setting 'src'
 iframe.src = "https://keybird.simplybook.me/v2/?widget-type=iframe&theme=bookingtroll&theme=bookingtroll&timeline=modern&datepicker=top_calendar"
 document.body.appendChild(iframe);
-  
+  }
 </script>
